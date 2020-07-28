@@ -15,8 +15,8 @@ Send "join light-division" to +14155238886
 
 - Install and activate virtualenv
 ```
-python3 -m venv venv
-source venv/bin/activate
+$ python3 -m venv venv
+$ source venv/bin/activate
 ```
 
 - Create requirements.txt
@@ -26,7 +26,7 @@ twilio
 
 - Installs dependencies
 ```
-pip install -r requirements.txt
+$ pip install -r requirements.txt
 ```
 
 ## App
@@ -54,6 +54,7 @@ print(message.sid)
 - Run your application
 ```
 $ cd ~/environment/twilio-whatsapp-demo
+$ source venv/bin/activate
 $ python3 app.py
 ```
 
