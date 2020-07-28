@@ -1,29 +1,35 @@
 # Twilio WhatsApp Demo
 
-## Quickstart
+## Requirements
+- a Twilio account – sign up for free
+- Python 2.x or 3.x
+- the Twilio Python helper library
+
+## Environment and project setup
 - Sign up for Twilio and activate the Sandbox. Note Account SID and Auth Token
-
-- Set up your development environment to send and receive messages
-```
-python3 -m venv venv
-source venv/bin/activate
-```
-
-- create requirements.txt
-```
-twilio
-```
-
-- installs dependencies
-```
-pip install -r requirements.txt
-```
 
 - Opt-in to the Sandbox by using Whats app to send this 
 ```
 Send "join light-division" to +14155238886
 ```
 
+- Install and activate virtualenv
+```
+python3 -m venv venv
+source venv/bin/activate
+```
+
+- Create requirements.txt
+```
+twilio
+```
+
+- Installs dependencies
+```
+pip install -r requirements.txt
+```
+
+## App
 - Create app.py which will send a message with WhatsApp
 ```
 # Download the helper library from https://www.twilio.com/docs/python/install
