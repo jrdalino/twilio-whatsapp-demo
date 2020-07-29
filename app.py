@@ -9,7 +9,7 @@ client = Client(account_sid, auth_token)
 message = client.messages.create(
                               body='Your Owl Taxi with plate number SBA-123 will arrive at 7:30 PM!',
                               from_='whatsapp:+14155238886',
-                              to='whatsapp:+6591730420'
+                              to='whatsapp:+<REPLACE_ME>'
                           )
 
 print(message.sid)
